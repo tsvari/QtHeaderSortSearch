@@ -48,7 +48,6 @@ void GridHeaderModel::updateIndicator(int logicalIndex)
 	} else {
 		sortIndicator = QStyleOptionHeader::SortDown;
 	}
-
 	for(int section = 0; section < columnCount(); section++) {
 		setHeaderData(section, Qt::Horizontal, (logicalIndex==section)?sortIndicator:QStyleOptionHeader::None, Qt::InitialSortOrderRole);
 	}
