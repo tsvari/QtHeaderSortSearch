@@ -1,0 +1,240 @@
+# Settings in order from "Code Style" tab of Qt Creator
+BasedOnStyle: LLVM
+AccessModifierOffset: -4
+#AlignAfterOpenBracket: Align
+AlignAfterOpenBracket: AlwaysBreak
+AlignArrayOfStructures: None
+AlignConsecutiveMacros: None
+AlignConsecutiveAssignments: None
+AlignConsecutiveBitFields: None
+AlignConsecutiveDeclarations: None
+#AlignEscapedNewlines: DontAlign
+AlignEscapedNewlines: Left
+AlignOperands: Align
+#AlignTrailingComments: Default
+AlignTrailingComments:
+  Kind: Always
+  OverEmptyLines: 2
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortEnumsOnASingleLine: true
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: All
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: Yes
+AttributeMacros:
+ - __capability
+BinPackArguments: false
+InsertTrailingCommas: None
+BinPackParameters: false
+BreakBeforeBinaryOperators: All
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel:        false
+  AfterClass:            true
+  AfterControlStatement: Never
+  AfterEnum:             false
+  AfterFunction:         true
+  AfterNamespace:        false
+  AfterObjCDeclaration:  false
+  AfterStruct:           true
+  AfterUnion:            false
+  BeforeCatch:           false
+  BeforeElse:            false
+  BeforeLambdaBody:      false
+  BeforeWhile:           false
+  IndentBraces:          false
+  SplitEmptyFunction:    false
+  SplitEmptyRecord:      false
+  SplitEmptyNamespace:   false
+#BreakBeforeConceptDeclarations: Default
+BreakBeforeConceptDeclarations: Allowed
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeComma
+BreakAfterJavaFieldAnnotations: false
+#BreakStringLiterals: true
+BreakStringLiterals: false
+ColumnLimit: 100
+CommentPragmas:  '^ IWYU pragma:'
+#QualifierAlignment: Leave
+QualifierAlignment: Right
+#QualiferOrder
+BreakInheritanceList: BeforeColon
+CompactNamespaces: false
+Cpp11BracedListStyle: true
+#DeriveLineEnding: Default
+DerivePointerAlignment: false
+DisableFormat: false
+EmptyLineAfterAccessModifier: Never
+EmptyLineBeforeAccessModifier: LogicalBlock
+ExperimentalAutoDetectBinPacking: false
+PackConstructorInitializers: BinPack
+FixNamespaceComments: true
+ForEachMacros:
+  - forever
+  - foreach
+  - Q_FOREACH
+  - BOOST_FOREACH
+IfMacros:
+  - KJ_IF_MAYBE
+#TypenameMacros:
+StatementMacros:
+  - Q_UNUSED
+  - QT_REQUIRE_VERSION
+  - Q_CLASSINFO
+  - Q_ENUM
+  - Q_ENUM_NS
+  - Q_FLAG
+  - Q_FLAG_NS
+  - Q_GADGET
+  - Q_GADGET_EXPORT
+  - Q_INTERFACES
+  - Q_MOC_INCLUDE
+  - Q_NAMESPACE
+  - Q_NAMESPACE_EXPORT
+  - Q_OBJECT
+  - Q_PROPERTY
+  - Q_REVISION
+  - Q_DISABLE_COPY
+  - Q_SET_OBJECT_NAME
+  - QT_BEGIN_NAMESPACE
+  - QT_END_NAMESPACE
+  - QML_ADDED_IN_MINOR_VERSION
+  - QML_ANONYMOUS
+  - QML_ATTACHED
+  - QML_DECLARE_TYPE
+  - QML_DECLARE_TYPEINFO
+  - QML_ELEMENT
+  - QML_EXTENDED
+  - QML_EXTENDED_NAMESPACE
+  - QML_EXTRA_VERSION
+  - QML_FOREIGN
+  - QML_FOREIGN_NAMESPACE
+  - QML_IMPLEMENTS_INTERFACES
+  - QML_INTERFACE
+  - QML_NAMED_ELEMENT
+  - QML_REMOVED_IN_MINOR_VERSION
+  - QML_SINGLETON
+  - QML_UNAVAILABLE
+  - QML_UNCREATABLE
+  - QML_VALUE_TYPE
+#NamespaceMacros:
+#WhitespaceSensitiveMacros:
+#  - BOOST_PP_STRINGIZE
+#  - CF_SWIFT_NAME
+#  - NS_SWIFT_NAME
+#  - PP_STRINGIZE
+#  - STRINGIZE
+WhitespaceSensitiveMacros:
+  - BOOST_PP_STRINGIZE
+  - CF_SWIFT_NAME
+  - NS_SWIFT_NAME
+  - PP_STRINGIZE
+  - STRINGIZE
+  - EXPECT_THAT
+  - ASSERT_THAT
+IndentAccessModifiers: false
+IndentCaseLabels: false
+IndentCaseBlocks: false
+IndentGotoLabels: true
+IndentPPDirectives: None
+IndentExternBlock: AfterExternBlock
+IndentRequires: true
+IndentWidth: 4
+IndentWrappedFunctionNames: false
+#JavaImportGroups:
+JavaScriptQuotes: Leave
+JavaScriptWrapImports: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+LambdaBodyIndentation: Signature
+#MacroBlockBegin: "
+#MacroBlockEnd:   "
+MacroBlockBegin: "BEGIN_SINK_MAP"
+MacroBlockEnd:   "END_SINK_MAP"
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: None
+ObjCBinPackProtocolList: Auto
+ObjCBlockIndentWidth: 4
+ObjCSpaceAfterProperty: false
+ObjCBreakBeforeNestedBlockParam: true
+ObjCSpaceBeforeProtocolList: true
+PenaltyBreakAssignment: 150
+PenaltyBreakBeforeFirstCallParameter: 300
+PenaltyBreakComment: 500
+PenaltyBreakFirstLessLess: 400
+PenaltyBreakOpenParenthesis: 0
+PenaltyBreakString: 600
+PenaltyBreakTemplateDeclaration: 10
+PenaltyExcessCharacter: 50
+PenaltyReturnTypeOnItsOwnLine: 300
+#PenaltyIndentedWhitespace: 0
+PenaltyIndentedWhitespace: 200
+PointerAlignment: Middle
+PPIndentWidth: -1
+#ReferenceAlignment: Right
+ReferenceAlignment: Pointer
+ReflowComments: false
+RemoveBracesLLVM: false
+SeparateDefinitionBlocks: Leave
+ShortNamespaceLines: 1
+SortIncludes: CaseSensitive
+SortJavaStaticImport: Before
+#SortUsingDeclarations: Default
+SortUsingDeclarations: Lexicographic
+SpaceAfterCStyleCast: true
+SpaceAfterLogicalNot: false
+SpaceAfterTemplateKeyword: false
+SpaceAroundPointerQualifiers: Default
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCaseColon: false
+SpaceBeforeCpp11BracedList: false
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeInheritanceColon: true
+SpaceBeforeParens: ControlStatements
+SpaceBeforeParensOptions:
+  AfterControlStatements:       true
+  AfterForeachMacros:           true
+  AfterFunctionDeclarationName: false
+  AfterFunctionDefinitionName:  false
+  AfterIfMacros:                true
+  AfterOverloadedOperator:      false
+  BeforeNonEmptyParentheses:    false
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceInEmptyBlock: false
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 1
+SpacesInAngles: Never
+SpacesInConditionalStatement: false
+SpacesInContainerLiterals: false
+SpacesInCStyleCastParentheses: false
+SpacesInLineCommentPrefix:
+  Minimum: 1
+  Maximum: -1
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpaceBeforeSquareBrackets: false
+BitFieldColonSpacing: Both
+#Standard: Auto
+Standard: c++20
+#StatementAttributeLikeMacros:
+#  - Q_EMIT
+StatementAttributeLikeMacros:
+  - Q_EMIT
+  - emit
+TabWidth: 4
+#UseCRLF: Default
+#UseTab: Never
+UseTab: AlignWithSpaces
+
+# Our stuff
+ContinuationIndentWidth: 4
+ConstructorInitializerIndentWidth: 4
+InsertBraces: true
+InsertNewlineAtEOF: true
+Language: Cpp
+LineEnding: LF
